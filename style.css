@@ -1,0 +1,151 @@
+   *{
+      margin: 6px;
+      padding: 6px;
+}
+body{
+      background-repeat:no-repeat;
+      background-size:100% ;
+      background-image: url("a.jpg");
+       /* backdrop-filter: blur(1px); */
+}
+/* .bg{
+      filter: blur(1px);
+} */
+.logo{
+      float: left;
+      height: 5%;
+      width: 7%;
+      border-radius: 15px;
+      margin-top: 1px;
+      
+}
+.tag{
+      background-color: brown;
+      border-radius: 15px;
+}
+.nav{
+      background-color: chartreuse;
+      float: left; 
+      margin-left: 0%;
+      text-decoration:none;
+      list-style:  none;
+      border-radius: 15px;
+      cursor: pointer;
+ }
+
+.nav li{
+        float: left;
+        margin-left: 5px;     
+}
+.nav a{
+      margin-left: 5px;
+      text-decoration: none;
+      color: black;
+}
+.nav li:hover{
+      background-color: brown;
+      color: chartreuse;
+       border-color:black; 
+      border-radius: 15px;
+      }
+.nav button{
+      border-radius: 10px;
+      background-color: chartreuse;
+      text-align: center;
+      cursor: pointer;
+}
+.nav input{
+      border-radius: 10px;
+      padding-left: 2px;
+}
+
+.nav button:hover{
+      background-color: brown;
+      border-radius: 10px;
+       border-color: none; 
+}
+.img{
+      height: 45vh;
+      width: 50%;
+      margin-top: 8%;
+      margin-left: 0px;
+      background: transparent;
+}
+
+.btn1 {
+      margin-left: 0%;
+} 
+.containt{
+      margin-left: 5%;
+}
+.containt h2{
+      font-family: Arial, Helvetica, sans-serif;
+      color: white;
+
+}.containt h6{
+      font-family: Arial, Helvetica, sans-serif;
+      color: white;
+      margin-left: 2%;
+
+}
+.btn{
+      margin-top: 1%;
+      width: 15%;
+      margin-right: 5%;
+      margin-left: 5%;
+      background-color: greenyellow;
+      border-radius: 12px;
+} 
+
+.btn1 button:hover{
+      background-color: brown;
+      color: greenyellow;
+      cursor: pointer;
+      transition: 0.5s; 
+}
+.companies{
+       /* background-size: 100%;    */
+       margin-top: 350px;
+      /* margin-left: -12px; */
+      
+       /* width: 100%; */
+      display: grid;
+      gap: 2rem;
+      align-items: center;
+     grid-template-columns: repeat(auto-fit,minmax(17rem,auto)); 
+}
+.companies h1{
+      text-align: center;
+      padding-top: 2%;
+}
+.companies1-img{ 
+      background-size: 100%;
+      background-repeat: no-repeat ;
+      background-image:url(p.jpg);
+      height: 100vh;
+      width: 350px;
+      margin-left: 100px;
+}.companies2-img{ 
+      background-size: 100%;
+      background-repeat: no-repeat ;
+      background-image:url(q.jpg);
+
+      height: 150vh;
+      width: 350px;
+      margin-left: 100px;
+} .companies3-img{ 
+      background-size: 100%;
+      background-repeat: no-repeat ;
+      background-image:url(r.jpg);
+      height: 150vh;
+      width: 350px;
+      margin-left: 100px;
+} 
+.companies3-img.amazon{
+      text-align: left;
+      margin-top: 5%;
+} 
+.companies3-img.amazon h1{
+      font-size: xx-large;
+}
+
